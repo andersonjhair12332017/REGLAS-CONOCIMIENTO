@@ -1,0 +1,112 @@
+{
+    "proposito": "Manifest para que el agente WMS use los archivos .py como conocimiento fuente.",
+    "archivos_py": [
+        {
+            "archivo": "app.py",
+            "uso": "Interfaz principal y orquestación de flujos."
+        },
+        {
+            "archivo": "wms_processor.py",
+            "uso": "Motor diario WMS, movimientos Bodega, trazabilidad y Excel diario."
+        },
+        {
+            "archivo": "procesamiento_rango.py",
+            "uso": "Análisis por rango/mensual desde Excel WMS."
+        },
+        {
+            "archivo": "wms_utils.py",
+            "uso": "Utilidades, normalización, Despachos, inactividad, análisis horario y formato Excel."
+        },
+        {
+            "archivo": "personal_config.py",
+            "uso": "Maestro personal, matching, roles, líderes, áreas."
+        },
+        {
+            "archivo": "turnos_config.py",
+            "uso": "Estructura, carga y guardado de turnos y metas PPT."
+        },
+        {
+            "archivo": "turnos_admin_ui.py",
+            "uso": "Administración visual de turnos y metas PPT."
+        },
+        {
+            "archivo": "maestro_personal_editor.py",
+            "uso": "Visualización/recarga del maestro personal."
+        },
+        {
+            "archivo": "wms_validators.py",
+            "uso": "Validaciones rápidas de Excel, fecha y turno."
+        },
+        {
+            "archivo": "historico_sqlite.py",
+            "uso": "Histórico SQLite y reporte mensual desde histórico."
+        }
+    ],
+    "prioridad_por_tema": {
+        "analisis_diario": [
+            "wms_processor.py",
+            "wms_utils.py",
+            "personal_config.py",
+            "turnos_config.py",
+            "wms_validators.py",
+            "app.py"
+        ],
+        "rango_mensual": [
+            "procesamiento_rango.py",
+            "wms_processor.py",
+            "wms_utils.py",
+            "turnos_config.py",
+            "personal_config.py"
+        ],
+        "turnos_ppt": [
+            "turnos_config.json",
+            "turnos_config.py",
+            "turnos_admin_ui.py",
+            "app.py"
+        ],
+        "maestro": [
+            "personal_config.py",
+            "maestro_personal_editor.py",
+            "wms_processor.py"
+        ],
+        "despachos_inactividad": [
+            "wms_utils.py",
+            "wms_processor.py"
+        ],
+        "validaciones": [
+            "wms_validators.py",
+            "wms_utils.py",
+            "app.py"
+        ],
+        "historico": [
+            "historico_sqlite.py",
+            "app.py"
+        ]
+    },
+    "turnos_reales_detectados": [
+        {
+            "nombre": "Mañana",
+            "hora_inicio": "07:00",
+            "hora_fin": "14:00",
+            "activo": true
+        },
+        {
+            "nombre": "Tarde",
+            "hora_inicio": "14:00",
+            "hora_fin": "21:00",
+            "activo": true
+        },
+        {
+            "nombre": "Noche",
+            "hora_inicio": "21:00",
+            "hora_fin": "07:00",
+            "activo": true
+        },
+        {
+            "nombre": "Completo",
+            "hora_inicio": "07:00",
+            "hora_fin": "06:59",
+            "activo": false
+        }
+    ]
+}

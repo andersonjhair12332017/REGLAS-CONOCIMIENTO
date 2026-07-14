@@ -1,0 +1,54 @@
+[
+    {
+        "nombre": "Mañana",
+        "hora_inicio": "07:00",
+        "hora_fin": "14:00",
+        "activo": true,
+        "meta_ppt_bodega": 175.0,
+        "meta_ppt_despachos": 1050.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 100.0,
+            "Pick and drop": 130.0,
+            "Trilateral": 175.0
+        }
+    },
+    {
+        "nombre": "Tarde",
+        "hora_inicio": "14:00",
+        "hora_fin": "21:00",
+        "activo": true,
+        "meta_ppt_bodega": 175.0,
+        "meta_ppt_despachos": 1050.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 100.0,
+            "Pick and drop": 130.0,
+            "Trilateral": 175.0
+        }
+    },
+    {
+        "nombre": "Noche",
+        "hora_inicio": "21:00",
+        "hora_fin": "07:00",
+        "activo": true,
+        "meta_ppt_bodega": 250.0,
+        "meta_ppt_despachos": 1500.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 120.0,
+            "Pick and drop": 155.0,
+            "Trilateral": 200.0
+        }
+    },
+    {
+        "nombre": "Completo",
+        "hora_inicio": "07:00",
+        "hora_fin": "06:59",
+        "activo": false,
+        "meta_ppt_bodega": 600.0,
+        "meta_ppt_despachos": 3150.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 320.0,
+            "Pick and drop": 415.0,
+            "Trilateral": 550.0
+        }
+    }
+]
