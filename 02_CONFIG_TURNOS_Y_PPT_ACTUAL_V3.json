@@ -1,0 +1,90 @@
+[
+    {
+        "nombre": "Mañana",
+        "aliases": [
+            "Mañana",
+            "Manana",
+            "MaĆ±ana",
+            "mañana",
+            "manana",
+            "turno mañana",
+            "turno manana"
+        ],
+        "hora_inicio": "07:00",
+        "hora_fin": "14:00",
+        "activo": true,
+        "meta_ppt_bodega": 175.0,
+        "meta_ppt_despachos": 1050.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 100.0,
+            "Montacarguista": 100.0,
+            "Pick and drop": 130.0,
+            "Pick and Drop": 130.0,
+            "Trilateral": 175.0
+        }
+    },
+    {
+        "nombre": "Tarde",
+        "aliases": [
+            "Tarde",
+            "tarde",
+            "turno tarde"
+        ],
+        "hora_inicio": "14:00",
+        "hora_fin": "21:00",
+        "activo": true,
+        "meta_ppt_bodega": 175.0,
+        "meta_ppt_despachos": 1050.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 100.0,
+            "Montacarguista": 100.0,
+            "Pick and drop": 130.0,
+            "Pick and Drop": 130.0,
+            "Trilateral": 175.0
+        }
+    },
+    {
+        "nombre": "Noche",
+        "aliases": [
+            "Noche",
+            "noche",
+            "nocturno",
+            "turno noche",
+            "jornada nocturna"
+        ],
+        "hora_inicio": "21:00",
+        "hora_fin": "07:00",
+        "activo": true,
+        "meta_ppt_bodega": 250.0,
+        "meta_ppt_despachos": 1500.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 120.0,
+            "Montacarguista": 120.0,
+            "Pick and drop": 155.0,
+            "Pick and Drop": 155.0,
+            "Trilateral": 200.0
+        }
+    },
+    {
+        "nombre": "Completo",
+        "aliases": [
+            "Completo",
+            "completo",
+            "turno completo",
+            "dia completo",
+            "día completo"
+        ],
+        "hora_inicio": "07:00",
+        "hora_fin": "06:59",
+        "activo": false,
+        "meta_ppt_bodega": 600.0,
+        "meta_ppt_despachos": 3150.0,
+        "metas_ppt_bodega_roles": {
+            "Montacarguita": 320.0,
+            "Montacarguista": 320.0,
+            "Pick and drop": 415.0,
+            "Pick and Drop": 415.0,
+            "Trilateral": 550.0
+        }
+    }
+]
